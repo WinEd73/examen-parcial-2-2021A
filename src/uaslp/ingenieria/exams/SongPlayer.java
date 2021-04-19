@@ -17,15 +17,13 @@ public class SongPlayer {
         while (notas.hasNext()) {
             Nota nota = notas.next();
 
-            switch (instrumento) {
-                case PIANO -> piano.presionaTecla(nota);
-                case FLAUTA -> flauta.sopla(nota);
-                case VIOLIN -> violin.toca(nota);
-                case GUITARRA -> guitarra.tocaCuerda(nota);
-                default -> System.out.println("Instrumento no soportado");
+
+         instrumento.add(new piano(nota);
+         instrumento.add(new flauta(nota);
+         instrumento.add(new violin(nota);
+         instrumento.add(new guitarra(nota);
             }
         }
 
     }
-
 }
